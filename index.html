@@ -1,0 +1,373 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Raízes do Amanhã</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+
+    <header>
+
+        <div class="logo">
+
+            <span>Raízes do Amanhã</span>
+
+        </div>
+
+        <nav>
+
+            <a href="#inicio">Início</a>
+
+            <a href="#conexao">Conexão</a>
+
+            <a href="#jornada">Jornada</a>
+
+            <a href="#tecnologia">Tecnologia</a>
+
+            <a href="#impacto">Impactos</a>
+
+            <a href="#curiosidades">Curiosidades</a>
+
+        </nav>
+
+    </header>
+
+    <!-- HERO -->
+
+    <section class="hero" id="inicio">
+
+        <div class="hero-texto">
+
+            <h1>
+                Raízes que Alimentam o Futuro
+            </h1>
+
+            <p>
+
+                Campo e cidade caminham juntos
+                para construir um futuro mais sustentável,
+                inovador e conectado.
+
+            </p>
+
+            <button onclick="mostrarMensagem()">
+
+                Conhecer a Jornada
+
+            </button>
+
+        </div>
+
+        <div class="hero-imagem">
+
+            <div class="circulo">
+
+                🌎
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CONEXÃO -->
+
+    <section id="conexao">
+
+        <h2>
+            Uma Conexão que Move o Mundo
+        </h2>
+
+        <div class="cards">
+
+            <div class="card">
+
+                <h3>
+                    🌱 Sustentabilidade
+                </h3>
+
+                <p>
+
+                    Preservar os recursos naturais
+                    é fundamental para garantir
+                    qualidade de vida e desenvolvimento.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>
+                    🚜 Agricultura
+                </h3>
+
+                <p>
+
+                    O trabalho no campo produz
+                    alimentos, gera empregos
+                    e fortalece a economia.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>
+                    🏙️ Cidade
+                </h3>
+
+                <p>
+
+                    As cidades transformam,
+                    distribuem e consomem
+                    os produtos do campo.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- JORNADA -->
+
+    <section id="jornada">
+
+        <h2>
+
+            Da Terra à Mesa
+
+        </h2>
+
+        <div class="timeline">
+
+            <div class="etapa">
+
+                <span>🌱</span>
+
+                <h3>Plantio</h3>
+
+                <p>
+                    O início de toda produção.
+                </p>
+
+            </div>
+
+            <div class="linha"></div>
+
+            <div class="etapa">
+
+                <span>🚜</span>
+
+                <h3>Cultivo</h3>
+
+                <p>
+                    Cuidado e acompanhamento.
+                </p>
+
+            </div>
+
+            <div class="linha"></div>
+
+            <div class="etapa">
+
+                <span>🏭</span>
+
+                <h3>Processamento</h3>
+
+                <p>
+                    Transformação dos produtos.
+                </p>
+
+            </div>
+
+            <div class="linha"></div>
+
+            <div class="etapa">
+
+                <span>🏙️</span>
+
+                <h3>Distribuição</h3>
+
+                <p>
+                    Chegada aos consumidores.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- TECNOLOGIA -->
+
+    <section id="tecnologia">
+
+        <h2>
+
+            Tecnologia no Campo
+
+        </h2>
+
+        <div class="cards">
+
+            <div class="card">
+
+                <h3>📡 Sensores</h3>
+
+                <p>
+
+                    Monitoram o solo e ajudam
+                    na tomada de decisões.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>🚁 Drones</h3>
+
+                <p>
+
+                    Auxiliam na análise
+                    das plantações.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>🤖 Automação</h3>
+
+                <p>
+
+                    Máquinas modernas aumentam
+                    a eficiência da produção.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- IMPACTOS -->
+
+    <section id="impacto">
+
+        <h2>
+
+            Transformando Vidas Todos os Dias
+
+        </h2>
+
+        <div class="estatisticas">
+
+            <div class="numero">
+
+                <h3 id="produtores">0</h3>
+
+                <p>
+                    Produtores
+                </p>
+
+            </div>
+
+            <div class="numero">
+
+                <h3 id="familias">0</h3>
+
+                <p>
+                    Famílias Beneficiadas
+                </p>
+
+            </div>
+
+            <div class="numero">
+
+                <h3 id="projetos">0</h3>
+
+                <p>
+                    Projetos Sustentáveis
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CURIOSIDADES -->
+
+    <section id="curiosidades">
+
+        <h2>
+
+            Você Sabia?
+
+        </h2>
+
+        <p id="textoCuriosidade">
+
+            Clique no botão para descobrir
+            uma curiosidade.
+
+        </p>
+
+        <button onclick="mostrarCuriosidade()">
+
+            Descobrir Curiosidade
+
+        </button>
+
+    </section>
+
+    <!-- VOLTAR -->
+
+    <section id="voltar">
+
+        <button onclick="voltarTopo()">
+
+            ↑ Voltar ao Topo
+
+        </button>
+
+    </section>
+
+    <!-- RODAPÉ -->
+
+    <footer>
+
+        <p>
+
+            Raízes do Amanhã • Campo • Cidade • Futuro Sustentável
+
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+```
