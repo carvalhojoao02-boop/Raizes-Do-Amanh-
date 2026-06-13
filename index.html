@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raízes do Amanhã</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Outfit:wght@600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <span>Raízes do Amanhã</span>
+        </div>
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#conexao">Conexão</a>
+            <a href="#familiar">Agro Familiar</a>
+            <a href="#jornada">Jornada</a>
+            <a href="#tecnologia">Tecnologia</a>
+            <a href="#impacto">Impactos</a>
+            <a href="#timeline">História</a>
+            <a href="#solucoes">Soluções</a>
+            <a href="#galeria">Galeria</a>
+            <a href="#quiz">Quiz</a>
+            <a href="#curiosidades">Curiosidades</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="inicio">
+        <div class="hero-texto">
+            <h1>Raízes que Alimentam o Futuro</h1>
+            <p>
+                O desenvolvimento sustentável do planeta depende da união sinérgica entre o campo e a cidade. 
+                A produção consciente de alimentos, o manejo estratégico dos recursos naturais e a integração 
+                da tecnologia de ponta no meio rural são os pilares fundamentais para garantir a segurança alimentar 
+                e a resiliência climática das próximas gerações.
+            </p>
+            <button onclick="mostrarMensagem()">Conhecer a Jornada</button>
+        </div>
+        <div class="hero-imagem">
+            <img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad451?w=800&q=80" alt="Plantação verde e agricultura" class="imagem-hero-principal">
+        </div>
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre o Projeto</h2>
+        <p>
+            O projeto <strong>Raízes do Amanhã</strong> foi desenvolvido especialmente para o Programa Agrinho. 
+            Nossa missão é disseminar o conhecimento sobre a importância da sustentabilidade no agronegócio, 
+            evidenciando como as inovações tecnológicas protegem o meio ambiente ao mesmo tempo em que fortalecem 
+            o abastecimento das grandes metrópoles. Acreditamos que a educação é a semente para um futuro equilibrado.
+        </p>
+    </section>
+
+    <section id="conexao">
+        <h2>Uma Conexão que Move o Mundo</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=300&q=80" alt="Broto de planta na terra representando sustentabilidade" class="icone-local" style="border-radius: 50%;">
+                <h3>Sustentabilidade</h3>
+                <p>Preservar biomas, mitigar a degradação dos solos e proteger os recursos hídricos deixaram de ser opções e tornaram-se obrigações vitais para a segurança alimentar global.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1593113598332-cd288d649433?w=300&q=80" alt="Plantação agrícola" class="icone-local" style="border-radius: 50%;">
+                <h3>Agricultura</h3>
+                <p>O campo moderno alia práticas milenares ao avanço científico para produzir mais alimentos por hectare, gerando empregos dignos e movimentando a balança comercial nacional.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=300&q=80" alt="Cidade grande conectada" class="icone-local" style="border-radius: 50%;">
+                <h3>Cidade</h3>
+                <p>Os centros urbanos atuam como grandes polos consumidores, centros de distribuição logística e laboratórios de pesquisa, impulsionando a demanda por produtos ecologicamente corretos.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="familiar">
+        <h2>O Coração do Abastecimento: Agricultura Familiar</h2>
+        <p>
+            A agricultura familiar representa a base da alimentação dos lares brasileiros. Longe de ser um setor rudimentar, 
+            ela se modernizou e hoje utiliza técnicas avançadas de manejo orgânico e cooperativismo. Esse modelo de produção 
+            garante que alimentos frescos e diversificados cheguem diariamente às feiras e mercados urbanos, fixando o homem 
+            no campo com dignidade e promovendo a biodiversidade agrícola regional.
+        </p>
+    </section>
+
+    <section id="jornada">
+        <h2>Da Terra à Mesa</h2>
+        <div class="timeline">
+            <div class="etapa">
+                <img src="https://images.unsplash.com/photo-1592417817098-8f3d6eb19675?w=300&q=80" alt="Mãos plantando na terra" class="icone-local" style="border-radius: 10px;">
+                <h3>Plantio</h3>
+                <p>Preparação do solo com bioinsumos e inserção precisa de sementes.</p>
+            </div>
+            <div class="linha"></div>
+            <div class="etapa">
+                <img src="https://images.unsplash.com/photo-1516253593875-bd7ba052fbc5?w=300&q=80" alt="Plantação crescendo" class="icone-local" style="border-radius: 10px;">
+                <h3>Cultivo</h3>
+                <p>Manejo integrado de pragas e monitoramento hídrico.</p>
+            </div>
+            <div class="linha"></div>
+            <div class="etapa">
+                <img src="https://images.unsplash.com/photo-1574325131876-a79997887854?w=300&q=80" alt="Colheita e processamento" class="icone-local" style="border-radius: 10px;">
+                <h3>Processamento</h3>
+                <p>Beneficiamento e higienização industrial da matéria-prima.</p>
+            </div>
+            <div class="linha"></div>
+            <div class="etapa">
+                <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?w=300&q=80" alt="Frutas e vegetais na feira" class="icone-local" style="border-radius: 10px;">
+                <h3>Distribuição</h3>
+                <p>Rotas logísticas eficientes que entregam o alimento fresco.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="tecnologia">
+        <h2>Tecnologia no Campo</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1563770660941-20978e870e26?w=300&q=80" alt="Estufa tecnológica" class="icone-local" style="border-radius: 10px;">
+                <h3>Sensores IoT</h3>
+                <p>Dispositivos enterrados no solo coletam dados em tempo real sobre umidade e nutrientes, enviando relatórios para o smartphone do produtor.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=300&q=80" alt="Drone voando sobre plantação" class="icone-local" style="border-radius: 10px;">
+                <h3>Drones e Satélites</h3>
+                <p>Aeronaves sobrevoam as plantações para detectar focos de pragas ou estresse hídrico dias antes dos sinais ficarem visíveis a olho nu.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1530268576395-51148609a632?w=300&q=80" alt="Trator moderno com tecnologia" class="icone-local" style="border-radius: 10px;">
+                <h3>Automação Inteligente</h3>
+                <p>Tratores autônomos guiados por GPS agrícola realizam trajetos perfeitos, reduzindo o desperdício de combustível e a compactação do solo.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="impacto">
+        <h2>Transformando Vidas Todos os Dias</h2>
+        <div class="estatisticas">
+            <div class="numero">
+                <h3 id="produtores">0</h3>
+                <p>Produtores Assistidos</p>
+            </div>
+            <div class="numero">
+                <h3 id="familias">0</h3>
+                <p>Famílias Urbanas Beneficiadas</p>
+            </div>
+            <div class="numero">
+                <h3 id="projetos">0</h3>
+                <p>Projetos Sustentáveis Implementados</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="timeline">
+        <h2>Evolução da Agricultura</h2>
+        <div class="timeline">
+            <div class="etapa">
+                <img src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=300&q=80" alt="Fazenda antiga tradicional" class="icone-local" style="border-radius: 10px;">
+                <h3>Agr. Tradicional</h3>
+                <p>Produção baseada na tração animal e ferramentas rudimentares.</p>
+            </div>
+            <div class="linha"></div>
+            <div class="etapa">
+                <img src="https://images.unsplash.com/photo-1594142404563-64cccaf5a10f?w=300&q=80" alt="Trator antigo trabalhando" class="icone-local" style="border-radius: 10px;">
+                <h3>Mecanização</h3>
+                <p>A chegada dos tratores multiplicou a capacidade produtiva no século XX.</p>
+            </div>
+            <div class="linha"></div>
+            <div class="etapa">
+                <img src="https://images.unsplash.com/photo-1535090467336-9501f96eef89?w=300&q=80" alt="Campo mapeado tecnologicamente" class="icone-local" style="border-radius: 10px;">
+                <h3>Agr. de Precisão</h3>
+                <p>Introdução do GPS e mapeamento para aplicação localizada de insumos.</p>
+            </div>
+            <div class="linha"></div>
+            <div class="etapa">
+                <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=300&q=80" alt="Tecnologia digital e dados" class="icone-local" style="border-radius: 10px;">
+                <h3>Inovação Agro 4.0</h3>
+                <p>Fusão de Inteligência Artificial e Big Data para máxima eficiência.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="solucoes">
+        <h2>Soluções para um Futuro Sustentável</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1615811361523-6bd03d7748e7?w=300&q=80" alt="Irrigação por gotejamento" class="icone-local" style="border-radius: 10px;">
+                <h3>Uso Inteligente da Água</h3>
+                <p>A irrigação por gotejamento evita a evaporação e economiza até 40% dos recursos hídricos.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=300&q=80" alt="Campo com árvores e gado integrado" class="icone-local" style="border-radius: 10px;">
+                <h3>Sistemas ILPF</h3>
+                <p>A Integração Lavoura-Pecuária-Floresta recupera pastagens e neutraliza a emissão de gases estufa.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1628352081506-83c43123ed6d?w=300&q=80" alt="Folha saudável sem pragas" class="icone-local" style="border-radius: 10px;">
+                <h3>Defensivos Biológicos</h3>
+                <p>Uso de inimigos naturais e bioinseticidas mantendo a lavoura saudável sem contaminar o lençol freático.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria">
+        <h2>Galeria do Projeto</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=500&q=80" alt="Sistema hidropônico verde" width="100%">
+                <p>Sistemas hidropônicos otimizados em ambiente urbano-rural.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=500&q=80" alt="Drone sobrevoando campo" width="100%">
+                <p>Monitoramento aéreo de lavouras comerciais.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1488455303630-281d595d730e?w=500&q=80" alt="Cesta de vegetais frescos da fazenda" width="100%">
+                <p>O escoamento direto da agricultura familiar para a comunidade.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?w=500&q=80" alt="Floresta preservada verde" width="100%">
+                <p>Preservação de Áreas de Preservação Permanente (APPs).</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?w=500&q=80" alt="Painéis solares na fazenda" width="100%">
+                <p>Matriz energética limpa alimentando o ecossistema do campo.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?w=500&q=80" alt="Pequena horta comunitária representativa" width="100%">
+                <p>Representação prática do elo logístico campo-cidade.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="quiz">
+        <h2>Quiz Sustentável</h2>
+        <div id="quiz-container">
+            <p id="perguntaQuiz">Teste seus conhecimentos agora mesmo!</p>
+            <div id="opcoesQuiz"></div>
+            <button onclick="iniciarQuiz()" style="margin-top: 15px;">Iniciar Quiz</button>
+            <h3 id="resultadoQuiz"></h3>
+            <h3 id="pontuacaoQuiz"></h3>
+        </div>
+    </section>
+
+    <section id="curiosidades">
+        <h2>Você Sabia?</h2>
+        <p id="textoCuriosidade">Descubra dados fantásticos e reais sobre a revolução do agronegócio sustentável.</p>
+        <button onclick="mostrarCuriosidade()">Sortear Curiosidade</button>
+    </section>
+
+    <section id="voltar">
+        <button onclick="voltarTopo()">↑ Voltar ao Início</button>
+    </section>
+
+    <footer>
+        <p><strong>Raízes do Amanhã</strong> • Um elo indissociável para a construção de comunidades circulares e inteligentes.</p>
+        <br>
+        <div id="referencias">
+            <p><strong>Fontes Bibliográficas Oficiais:</strong> EMBRAPA, IBGE, FAO e MAPA.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
